@@ -1,0 +1,14 @@
+Miembros del grupo:
+
+David Alvarez Reñones
+Raul Capellan Fernandez
+Marco Garcia Gonzalez
+Pedro Jose Pascual Ruano
+
+Hemos implementado las tres partes opcionales de la práctica:
+
+-Para la primera hay que introducir dos argumentos a la hora de ejecutar la practica, el primero va a ser el numero de usuarios que puede haber como maximo y el segundo el numero de puestos de facturacion que hay desde el principio. Hemos hecho que en el caso de los puestos de facturacion, se vayan creando primero un puesto de facturacion para usuarios normales y despues uno para vips.
+
+-Para la segunda parte, para añadir un usuario mas al maximo de usuario, hemos decidido que sucedera cuando el programa reciba la señal: SIGPIPE -> kill -13 pid_programa
+
+-Para la tercera parte de añadir un nuevo puesto de facturacion, se usara la señal SIGALRM -> kill -14 pid_programa
